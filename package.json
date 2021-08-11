@@ -1,7 +1,7 @@
 {
   "name": "@uniswap/interface",
   "description": "Uniswap Interface",
-  "homepage": ".",
+  "homepage": "https://mentors4edu.github.io/cloutswap",
   "private": true,
   "devDependencies": {
     "@ethersproject/experimental": "^5.2.0",
@@ -142,5 +142,7 @@
     ]
   },
   "license": "GPL-3.0-or-later",
-  "dependencies": {}
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }
