@@ -16,14 +16,9 @@ jobs:
       # with:
         # directory: server # Optional, speficy the folder of package-lock.json if not in the root directory
     - name: Install Deps
-      run: npm install
-    - name: Build  
-      run: npm install -g yarn
     - run: npm install -g gh-pages --save-dev 
-    - run: npm run build -f
     - run: sudo yarn install
     - run: sudo yarn add gh-pages
-    - run: sudo yarn build
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
