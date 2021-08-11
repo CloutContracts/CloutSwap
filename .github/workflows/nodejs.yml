@@ -21,6 +21,8 @@ jobs:
       run: npm install -g yarn
     - run: npm install -g gh-pages --save-dev 
     - run: npm run build -f
-    - run: gh-pages -d build -f
-    - name: Deploy 
-      run: npm run deploy
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
