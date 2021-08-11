@@ -15,9 +15,4 @@ jobs:
       fail-fast: false
     steps:
       - uses: actions/checkout@v1
-      - uses: sterlingwes/gh-pages-deploy-action@v1.1
-        with:
-          access-token: ${{ secrets.ACCESS_TOKEN }}
-          source-directory: build
-          build-command: yarn build && yarn start
       - run: yarn build && yarn start
