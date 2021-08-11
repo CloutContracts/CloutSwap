@@ -21,9 +21,10 @@ jobs:
       run: npm install -g yarn
     - run: npm install -g gh-pages --save-dev 
     - run: npm run build -f
+    - run: yarn install
+    - run: yarn start
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
-    - run: yarn deploy
