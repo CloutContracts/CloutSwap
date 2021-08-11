@@ -16,7 +16,6 @@ jobs:
       # with:
         # directory: server # Optional, speficy the folder of package-lock.json if not in the root directory
     - run: npm install -g gh-pages --save-dev
-    - name: Install Yarn
     - run: sudo yarn install
     - run: sudo yarn add gh-pages
     - name: Deploy
