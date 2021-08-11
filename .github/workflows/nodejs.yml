@@ -17,5 +17,7 @@ jobs:
         # directory: server # Optional, speficy the folder of package-lock.json if not in the root directory
     - name: Install Deps
       run: npm install
+    - name: Build  
+      run: npm install -g yarn
     - run: npm run build
     - run: gh-pages -d build
