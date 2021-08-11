@@ -12,10 +12,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - uses: c-hive/gha-npm-cache@v1
+    - name: Build Yarn and npm
+    - uses: linchpin/action-build-yarn-npm@master
       # with:
         # directory: server # Optional, speficy the folder of package-lock.json if not in the root directory
-    - name: Install JS dependencies
+    - name: Install Deps
       run: npm install
+    - name: Build w/ NPM
     - run: npm run build
+    - name: Build w/ gh-pages
     - run: gh-pages -d build
