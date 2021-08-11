@@ -14,9 +14,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        # We should test on 10.13.0 but don't due to a bug in Jest
-        # https://github.com/facebook/jest/issues/9453
-        node-version: [10.15.0, 15.x]
+        node-version: [15.x]
       fail-fast: false
     steps:
     - uses: actions/checkout@v1
