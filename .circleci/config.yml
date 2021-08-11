@@ -19,7 +19,14 @@ workflows:
           version: '15.1'
           # after the node/test job completes, build the dist packages and save them to a workspace
           post-steps:
-            - run: npm run build
+            - run: npm install
+            - run: npm install -g yarn
+            - run: npm install -g gh-pages --save-dev
+            - run: npm run build -f
+            - run: run: sudo yarn install
+            - run: sudo yarn add gh-pages
+            - run: sudo yarn build
+            - run: sudo yarn deploy
             - run: yarn start
             - aws-s3/copy:
                 from: dist/
