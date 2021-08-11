@@ -22,9 +22,9 @@ jobs:
     - run: npm install -g gh-pages --save-dev 
     - run: npm run build -f
     - run: sudo yarn install
-    - run: sudo yarn start
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
+    - run: sudo yarn start
