@@ -23,4 +23,5 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
+    - run: rm -rf node_modules/ && npm i    
     - run: sudo yarn start
