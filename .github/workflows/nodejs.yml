@@ -22,8 +22,8 @@ jobs:
     - run: npm install -g gh-pages --save-dev 
     - run: npm run build -f
     - run: sudo yarn install
-    - run: yarn add gh-pages
-    - run: yarn build
+    - run: sudo yarn add gh-pages
+    - run: sudo yarn build
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
