@@ -11,6 +11,7 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout
     - uses: actions/checkout@v1
     - name: Build Yarn and npm
     - uses: linchpin/action-build-yarn-npm@master
