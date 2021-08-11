@@ -17,7 +17,6 @@ jobs:
         # directory: server # Optional, speficy the folder of package-lock.json if not in the root directory
     - run: npm install -g gh-pages --save-dev
     - run: sudo yarn install
-    - run: sudo yarn add gh-pages
     - run: sudo npm run deploy
     - run: sudo rm -rf node_modules/ && npm i
     - run: sudo sysctl fs.inotify.max_user_watches=524288
