@@ -15,7 +15,6 @@ jobs:
     - uses: linchpin/action-build-yarn-npm@master
       # with:
         # directory: server # Optional, speficy the folder of package-lock.json if not in the root directory
-    - name: Install Deps
     - run: npm install -g gh-pages --save-dev
     - name: Install Yarn
     - run: sudo yarn install
