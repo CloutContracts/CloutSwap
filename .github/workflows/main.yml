@@ -1,5 +1,3 @@
-# .github/workflows/main.yml
-
 name: Github Pages Publish
 on:
   push:
