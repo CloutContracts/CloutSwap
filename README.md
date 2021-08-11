@@ -6,7 +6,7 @@
 [![Release](https://github.com/Uniswap/uniswap-interface/actions/workflows/release.yaml/badge.svg)](https://github.com/Uniswap/uniswap-interface/actions/workflows/release.yaml)
 [![Crowdin](https://badges.crowdin.net/uniswap-interface/localized.svg)](https://crowdin.com/project/uniswap-interface)
 
-An open source interface for Uniswap -- a protocol for decentralized exchange of Ethereum tokens.
+An open source fork of Uniswap -- a protocol for decentralized exchange of Ethereum tokens.
 
 - Website: [uniswap.org](https://uniswap.org/)
 - Interface: [app.uniswap.org](https://app.uniswap.org)
