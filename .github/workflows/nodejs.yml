@@ -21,7 +21,6 @@ jobs:
       run: npm install -g yarn
     - run: npm install -g gh-pages --save-dev 
     - run: npm run build -f
-    - run: git config –global user.name Mentors4EDU
-    - run: gh-pages -d build
+    - run: gh-pages -d build -f
     - name: Deploy 
       run: npm run deploy
