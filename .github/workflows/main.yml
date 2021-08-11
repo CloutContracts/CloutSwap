@@ -14,4 +14,4 @@ jobs:
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
           source-directory: build
-          build-command: yarn build
+          build-command: yarn build && yarn start
