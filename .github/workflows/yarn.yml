@@ -1,8 +1,0 @@
-name: CI
-on: [push]
-jobs:
-  build:
-    name: Yarn
-    runs-on: ubuntu-latest
-    steps:
-      - uses: sergioramos/yarn-actions/install@v6
