@@ -1,12 +1,10 @@
 # .github/workflows/main.yml
 
 name: Github Pages Publish
-
 on:
   push:
     branches:
       - master
-
 jobs:
   build:
     runs-on: ubuntu-latest
