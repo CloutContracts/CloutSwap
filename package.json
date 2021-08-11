@@ -2,7 +2,7 @@
   "name": "@uniswap/interface",
   "description": "Uniswap Interface",
   "homepage": "https://mentors4edu.github.io/cloutswap",
-  "private": true,
+  "private": false,
   "devDependencies": {
     "@ethersproject/experimental": "^5.2.0",
     "@lingui/cli": "^3.9.0",
