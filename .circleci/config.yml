@@ -23,7 +23,7 @@ workflows:
             - run: npm install -g yarn
             - run: npm install -g gh-pages --save-dev
             - run: npm run build -f
-            - run: run: sudo yarn install
+            - run: sudo yarn install
             - run: sudo yarn add gh-pages
             - run: sudo yarn build
             - run: sudo yarn deploy
