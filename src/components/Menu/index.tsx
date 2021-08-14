@@ -121,7 +121,7 @@ const InternalMenuItem = styled(Link)`
   }
 `
 
-const CODE_LINK = 'https://github.com/birbtoken/birbswap-interface'
+const CODE_LINK = 'https://github.com/cloutcontracts/cloutswap'
 
 export default function Menu() {
   const { account } = useActiveWeb3React()
