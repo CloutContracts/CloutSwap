@@ -165,11 +165,11 @@ export default function Vote() {
                 </RowBetween>
                 <ExternalLink
                   style={{ color: 'white', textDecoration: 'underline' }}
-                  href="https://birbtoken.com"
+                  href="https://cloutcontracts.net"
                   target="_blank"
                 >
                   <TYPE.white fontSize={14}>
-                    <Trans>Read more about Birb</Trans>
+                    <Trans>Read more about CCS</Trans>
                   </TYPE.white>
                 </ExternalLink>
               </AutoColumn>
