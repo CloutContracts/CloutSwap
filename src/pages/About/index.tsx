@@ -157,9 +157,12 @@ export default function Vote() {
                 <RowBetween>
                   <TYPE.white fontSize={14}>
                     <Trans>
-                      Birbswap is an alternative frontend for UniswapV3 which prioritizes decentralized cryptocurrencies
-                      as bases and for routing. Central banks have no place in the Ethereum Network and we will help
-                      slowly phase them out of the space together with Birbswap.
+                      CloutSwap is a fork of birbswap, which is forked from the Uniswap interface. CloutSwap is an 
+                      alternative frontend that prioritizes CloutContracts (CCS) and decentralized cryptocurrencies. 
+                      It also prioritizes cross-chain projects. Please consider CloutSwap and CloutContracts as experimental 
+                      tech and utilities. Any actions you decide to do are at your own risk. Please don't consider tokens on 
+                      here as an asset or financial investment, but rather a showcase of technology. We don't solicit or 
+                      facilitate any kind of financial or investment advice.
                     </Trans>
                   </TYPE.white>
                 </RowBetween>
