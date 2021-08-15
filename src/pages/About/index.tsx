@@ -158,11 +158,11 @@ export default function Vote() {
                   <TYPE.white fontSize={14}>
                     <Trans>
                       CloutSwap is a fork of birbswap, which is forked from the Uniswap interface. CloutSwap is an
-                      alternative frontend that prioritizes CloutContracts (CCS) and decentralized cryptocurrencies. 
-                      It also prioritizes cross-chain projects. Please consider CloutSwap and CloutContracts as
-                      experimental tech and utilities. Any actions you decide to do are at your own risk. Please 
-                      don't consider tokens on here as an asset or financial investment, but rather a showcase of 
-                      technology. We don't solicit or facilitate any kind of financial or investment advice.
+                      alternative frontend that prioritizes CloutContracts (CCS) and decentralized cryptocurrencies. It
+                      also prioritizes cross-chain projects. Please consider CloutSwap and CloutContracts as
+                      experimental tech and utilities. Any actions you decide to do are at your own risk. Please don't
+                      consider tokens on here as an asset or financial investment, but rather a showcase of technology.
+                      We don't solicit or facilitate any kind of financial or investment advice.
                     </Trans>
                   </TYPE.white>
                 </RowBetween>
