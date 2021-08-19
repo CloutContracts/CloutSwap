@@ -1,3 +1,5 @@
+Please update token lists (list.ts): https://github.com/CloutContracts/CloutSwap/tree/main/src/constants
+
 # CloutSwap
 
 [![Unit Tests](https://github.com/Uniswap/uniswap-interface/actions/workflows/unit-tests.yaml/badge.svg)](https://github.com/Uniswap/uniswap-interface/actions/workflows/unit-tests.yaml)
