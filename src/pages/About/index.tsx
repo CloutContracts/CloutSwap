@@ -151,7 +151,7 @@ export default function Vote() {
               <AutoColumn gap="md">
                 <RowBetween>
                   <TYPE.white fontWeight={600}>
-                    <Trans>About Birbswap</Trans>
+                    <Trans>About CloutSwap</Trans>
                   </TYPE.white>
                 </RowBetween>
                 <RowBetween>
