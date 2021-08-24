@@ -1,7 +1,7 @@
 {
   "name": "Birb Tokens List",
-  "logoURI": "https://raw.githubusercontent.com/CloutContracts/cloutcontracts.github.io/main/assets/images/c-32x32.png",
-  "keywords": ["audited", "mineable", "special tokens"],
+  "logoURI": "ipfs://QmPL3vdJvf6QD9JRe5krkWC8WcJ19B9Hbnxpd7wc3umVxB",
+  "keywords": ["neutral", "mineable", "decentralized", "special tokens"],
   "tags": {
     "mineable": {
       "name": "Mineable",
@@ -10,17 +10,25 @@
     "atomic": {
       "name": "Atomic",
       "description": "Tokens that are fixed to an internal Ethereum asset"
+    },
+    "neutral": {
+      "name": "Neutral",
+      "description": "Tokens that have mathmatically neutral distibution"
+    },
+    "decentralized": {
+      "name": "Decentralized",
+      "description": "Tokens that have no central monarch, service, or central bank"
     }
   },
   "timestamp": "2020-06-12T00:00:00+00:00",
   "tokens": [
     {
       "chainId": 1,
-      "address": "0x1da4858ad385cc377165a298cc2ce3fce0c5fd31",
-      "symbol": "CCS",
-      "name": "CloutContracts",
-      "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/CloutContracts/cloutcontracts.github.io/main/assets/images/c-32x32.png",
+      "address": "0x216d7636b791Ed93BFD56BF696b35A14115416ab",
+      "symbol": "BRB",
+      "name": "BIRB Token",
+      "decimals": 8,
+      "logoURI": "ipfs://QmPL3vdJvf6QD9JRe5krkWC8WcJ19B9Hbnxpd7wc3umVxB",
       "tags": ["atomic"]
     },
     {
@@ -31,11 +39,38 @@
       "decimals": 8,
       "logoURI": "ipfs://QmRSHPBUVAPjaEpNhjiicfaGb1w5rKsAq7McPkmd61VhKq",
       "tags": ["mineable"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x2bf91c18cd4ae9c2f2858ef9fe518180f7b5096d",
+      "symbol": "KIWI",
+      "name": "KIWI Token",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/10799/thumb/kiwi_256.png?1583736957",
+      "tags": ["mineable"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x26946ada5ecb57f3a1f91605050ce45c482c9eb1",
+      "symbol": "BSOV",
+      "name": "BSOV Token",
+      "decimals": 8,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/4306.png",
+      "tags": ["mineable"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x4ba6ddd7b89ed838fed25d208d4f644106e34279",
+      "symbol": "VETH",
+      "name": "Vether",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/11375/small/vether-symbol-coingecko.png?1622341592",
+      "tags": ["neutral"]
     }
   ],
   "version": {
     "major": 1,
-    "minor": 0,
+    "minor": 2,
     "patch": 0
   }
 }
