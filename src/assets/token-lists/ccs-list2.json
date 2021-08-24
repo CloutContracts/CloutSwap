@@ -1,6 +1,6 @@
 {
-  "name": "CCS Tokens List",
-  "logoURI": "https://raw.githubusercontent.com/CloutContracts/cloutcontracts.github.io/main/assets/images/c-32x32.png",
+  "name": "Birb Tokens List",
+  "logoURI": "ipfs://QmPL3vdJvf6QD9JRe5krkWC8WcJ19B9Hbnxpd7wc3umVxB",
   "keywords": ["neutral", "mineable", "decentralized", "special tokens"],
   "tags": {
     "mineable": {
@@ -24,11 +24,11 @@
   "tokens": [
     {
       "chainId": 1,
-      "address": "0x1da4858ad385cc377165a298cc2ce3fce0c5fd31",
-      "symbol": "CCS",
-      "name": "CloutContracts",
-      "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/CloutContracts/cloutcontracts.github.io/main/assets/images/c-32x32.png",
+      "address": "0x216d7636b791Ed93BFD56BF696b35A14115416ab",
+      "symbol": "BRB",
+      "name": "BIRB Token",
+      "decimals": 8,
+      "logoURI": "ipfs://QmPL3vdJvf6QD9JRe5krkWC8WcJ19B9Hbnxpd7wc3umVxB",
       "tags": ["atomic"]
     },
     {
