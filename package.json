@@ -1,8 +1,8 @@
 {
-  "name": "CloutSwap",
+  "name": "@uniswap/interface",
   "description": "Uniswap Interface",
-  "homepage": "https://cloutcontracts.github.io/cloutswap",
-  "private": false,
+  "homepage": ".",
+  "private": true,
   "devDependencies": {
     "@ethersproject/experimental": "^5.2.0",
     "@lingui/cli": "^3.9.0",
@@ -116,8 +116,6 @@
     "compile-external-abi-types": "typechain --target ethers-v5 --out-dir src/abis/types './src/abis/**/*.json'",
     "compile-v3-contract-types": "typechain --target ethers-v5 --out-dir src/types/v3 './node_modules/@uniswap/?(v3-core|v3-periphery)/artifacts/contracts/**/*.json'",
     "build": "yarn compile-contract-types && yarn i18n:extract && yarn i18n:compile && react-scripts build",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build",
     "i18n:extract": "lingui extract --locale en-US",
     "i18n:compile": "lingui compile",
     "integration-test": "start-server-and-test 'serve build -l 3000' http://localhost:3000 'cypress run'",
@@ -144,7 +142,5 @@
     ]
   },
   "license": "GPL-3.0-or-later",
-  "dependencies": {
-    "gh-pages": "^3.2.3"
-  }
+  "dependencies": {}
 }
