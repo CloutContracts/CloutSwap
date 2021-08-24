@@ -20,8 +20,8 @@ yarn start
 
 
 
-## CLOUTSWAP TODO 
-1) build a cloutswap tokenlist and upload it to IPFS 
+## BIRBSWAP TODO 
+1) build a birbswap tokenlist and upload it to IPFS 
 2) make it the default tokenlist 
 3) 
 
