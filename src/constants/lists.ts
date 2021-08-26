@@ -15,7 +15,7 @@ export const DEFAULT_LIST_OF_LISTS: string[] = [
   CCS_BSC_LIST,
   GEMINI_LIST,
   BIRB_LIST,
-//  ...UNSUPPORTED_LIST_URLS, // need to load unsupported tokens as well
+  //  ...UNSUPPORTED_LIST_URLS, // need to load unsupported tokens as well
 ]
 
 // default lists to be 'active' aka searched across
