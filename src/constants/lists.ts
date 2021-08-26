@@ -13,7 +13,7 @@ export const DEFAULT_LIST_OF_LISTS: string[] = [
   GEMINI_LIST,
   BIRB_LIST,
   CCS_BSC_LIST,
-  CCS_ETC_LIST,  
+  CCS_ETC_LIST,
   CCS_LIST,
   //  ...UNSUPPORTED_LIST_URLS, // need to load unsupported tokens as well
 ]
