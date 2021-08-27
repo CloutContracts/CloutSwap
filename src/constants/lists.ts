@@ -9,7 +9,7 @@ const GEMINI_LIST = 'https://www.gemini.com/uniswap/manifest.json'
 export const UNSUPPORTED_LIST_URLS: string[] = [CCS_BSC_LIST, CCS_ETC_LIST, CCS_LIST]
 
 // lower index == higher priority for token import
-export const DEFAULT_LIST_OF_LISTS: string[] = [GEMINI_LIST, .BIRB_LIST, ...UNSUPPORTED_LIST_URLS]
+export const DEFAULT_LIST_OF_LISTS: string[] = [GEMINI_LIST,·BIRB_LIST,·...UNSUPPORTED_LIST_URLS]
 
 // default lists to be 'active' aka searched across
 export const DEFAULT_ACTIVE_LIST_URLS: string[] = [CCS_LIST]
