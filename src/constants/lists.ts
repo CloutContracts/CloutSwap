@@ -9,7 +9,7 @@ const COINGECKO_LIST = 'https://tokens.coingecko.com/uniswap/all.json'
 const COMPOUND_LIST = 'https://raw.githubusercontent.com/compound-finance/token-list/master/compound.tokenlist.json'
 export const OPTIMISM_LIST = 'https://static.optimism.io/optimism.tokenlist.json'
 
-// export const UNSUPPORTED_LIST_URLS: string[] = [COINGECKO_LIST, COMPOUND_LIST, OPTIMISM_LIST]
+export const UNSUPPORTED_LIST_URLS: string[] = [COMPOUND_LIST, OPTIMISM_LIST, COINGECKO_LIST]
 
 // lower index == higher priority for token import
 export const DEFAULT_LIST_OF_LISTS: string[] = [
