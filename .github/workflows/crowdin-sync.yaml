@@ -1,8 +1,8 @@
-# Close Cron job for now
 name: Crowdin Download
 
 # hourly we sync translations from Crowdin
 on:
+# Close Cron job for now
  # schedule:
   #  - cron: '0 * * * *' # every hour we download translations and update the pr from crowdin
 
@@ -56,4 +56,3 @@ jobs:
           commit_message: "chore(i18n): synchronize translations from crowdin [skip ci]"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-#
