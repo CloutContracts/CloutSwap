@@ -121,7 +121,7 @@ const InternalMenuItem = styled(Link)`
   }
 `
 
-const CODE_LINK = 'https://cloutcontracts.net'
+const CODE_LINK = 'https://github.com/CloutContracts/CloutSwap'
 
 export default function Menu() {
   const { account } = useActiveWeb3React()
