@@ -1,6 +1,6 @@
 Please update token lists (list.ts): https://github.com/CloutContracts/CloutSwap/tree/main/src/constants
 
-![CCLOGO](https://raw.githubusercontent.com/CloutContracts/cloutcontracts.github.io/main/assets/images/c-128x128.png)
+![CCSLOGO](https://raw.githubusercontent.com/CloutContracts/cloutcontracts.github.io/main/assets/images/c-128x128.png)
 # CloutSwap
 
 [![Unit Tests](https://github.com/Uniswap/uniswap-interface/actions/workflows/unit-tests.yaml/badge.svg)](https://github.com/Uniswap/uniswap-interface/actions/workflows/unit-tests.yaml)
