@@ -65,7 +65,7 @@ const WETH_ONLY: ChainTokenList = {
 // used to construct intermediary pairs for trading
 export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
   ...WETH_ONLY,
-  [1]: [...WETH_ONLY[1], DAI, USDC, USDT, WBTC, ZXBTC, BIRB],
+  [1]: [...WETH_ONLY[1], DAI, USDC, USDT, WBTC, CCS, ETHS],
 }
 export const ADDITIONAL_BASES: { [chainId: number]: { [tokenAddress: string]: Token[] } } = {
   [1]: {
