@@ -13,6 +13,8 @@ import {
   TRIBE,
   UMA,
   UNI,
+  CCS,
+  ETHS,
   USDC,
   USDT,
   UST,
@@ -115,7 +117,7 @@ export const COMMON_BASES: ChainCurrencyList = {
 // used to construct the list of all pairs we consider by default in the frontend
 export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
   ...WETH_ONLY,
-  [1]: [...WETH_ONLY[1], DAI, USDC, USDT, ZXBTC, BIRB],
+  [1]: [...WETH_ONLY[1], DAI, USDC, USDT, CCS, ETS],
 }
 export const PINNED_PAIRS: { readonly [chainId: number]: [Token, Token][] } = {
   [1]: [
@@ -125,6 +127,6 @@ export const PINNED_PAIRS: { readonly [chainId: number]: [Token, Token][] } = {
     ],
     [USDC, USDT],
     [DAI, USDT],
-    [ZXBTC, BIRB],
+    [CCS, ETS],
   ],
 }
