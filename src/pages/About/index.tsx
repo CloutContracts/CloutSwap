@@ -158,7 +158,8 @@ export default function Vote() {
                   <TYPE.white fontSize={14}>
                     <Trans>
                       CloutSwap is an alternative frontend for UniswapV3 which prioritizes CSS lists and decentralized
-                      cryptocurrencies for routing.
+                      cryptocurrencies for routing. The aim is to create a go-to place for people who want this type of
+                      front-end and are fans of this technology.
                     </Trans>
                   </TYPE.white>
                 </RowBetween>
