@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-09-05 01:06+0000\n"
+"POT-Creation-Date: 2021-09-10 19:59+0000\n"
 "Mime-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -298,10 +298,6 @@ msgstr "Best for most pairs."
 msgid "Best for stable pairs."
 msgstr "Best for stable pairs."
 
-#: src/pages/About/index.tsx
-msgid "Birbswap is an alternative frontend for UniswapV3 which prioritizes decentralized cryptocurrencies as bases and for routing. Central banks have no place in the Ethereum Network and we will help slowly phase them out of the space together with Birbswap."
-msgstr "Birbswap is an alternative frontend for UniswapV3 which prioritizes decentralized cryptocurrencies as bases and for routing. Central banks have no place in the Ethereum Network and we will help slowly phase them out of the space together with Birbswap."
-
 #: src/components/Blocklist/index.tsx
 msgid "Blocked address"
 msgstr "Blocked address"
@@ -399,6 +395,10 @@ msgstr "Close"
 #: src/pages/RemoveLiquidity/V3.tsx
 msgid "Closed"
 msgstr "Closed"
+
+#: src/pages/About/index.tsx
+msgid "CloutSwap is an alternative frontend for UniswapV3 which prioritizes CSS lists and decentralized cryptocurrencies for routing."
+msgstr "CloutSwap is an alternative frontend for UniswapV3 which prioritizes CSS lists and decentralized cryptocurrencies for routing."
 
 #: src/components/Menu/index.tsx
 msgid "Code"
