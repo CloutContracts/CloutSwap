@@ -1,8 +1,8 @@
 // used to mark unsupported tokens, these are hosted lists of unsupported tokens
 
-const CCS_LIST = 'https://gateway.pinata.cloud/ipfs/QmPKRFtiqyRyhtZDk1arByWW9ihWT1PAsPgUtUozkfe9jr'
-const CCS_ETC_LIST = 'https://gateway.pinata.cloud/ipfs/QmcZUZp9HNPgXno6Bi69AwhtgUE3JtcszVP7aL2etDo1MD'
-const CCS_BSC_LIST = 'https://gateway.pinata.cloud/ipfs/QmXVYDsbaMcK8NjqjMx1XDFEWpP3BsD2hw5Rmy2P8F2VJa'
+const CCS_LIST = 'https://gateway.pinata.cloud/ipfs/QmYr9NpNRiSAAj57zD63aeXrY1Fs8SWhwYKEMgDY1xTDYq'
+const CCS_ETC_LIST = 'https://gateway.pinata.cloud/ipfs/QmYjvp7ybSyHN3Mt2fzPE97GsrB3iT9k9mLojXTwSYo2YM'
+const CCS_BSC_LIST = 'https://gateway.pinata.cloud/ipfs/QmRruHAJrHyCWSh9Xqh6pviGjjbgLRnVTuu8hRKUJZkKHw'
 const BIRB_LIST = 'https://gateway.pinata.cloud/ipfs/QmUzqasKre5PMe2gAvnzy7dPSkbckF9wFf4dU9z1GfMWJb'
 const GEMINI_LIST = 'https://www.gemini.com/uniswap/manifest.json'
 const COINGECKO_LIST = 'https://tokens.coingecko.com/uniswap/all.json'
