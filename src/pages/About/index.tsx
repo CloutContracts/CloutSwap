@@ -157,9 +157,8 @@ export default function Vote() {
                 <RowBetween>
                   <TYPE.white fontSize={14}>
                     <Trans>
-                      Birbswap is an alternative frontend for UniswapV3 which prioritizes decentralized cryptocurrencies
-                      as bases and for routing. Central banks have no place in the Ethereum Network and we will help
-                      slowly phase them out of the space together with Birbswap.
+                      CloutSwap is an alternative frontend for UniswapV3 which prioritizes CSS lists and decentralized 
+                      cryptocurrencies for routing.
                     </Trans>
                   </TYPE.white>
                 </RowBetween>
